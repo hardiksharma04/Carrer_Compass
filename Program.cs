@@ -92,5 +92,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapGet("/", () => "Career Compass API is running");
 app.Run();
